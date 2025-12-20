@@ -1,3 +1,7 @@
+import java.lang.StringBuffer;
+import java.lang.StringBuilder;
+import java.lang.String;
+
 public class Stringbuilder3 {
     public static void main(String[] args) {
         String s1 = new String("java");
