@@ -11,10 +11,10 @@ public class Test_4 {
         x = a;
     }
 
-    Test_4(int a, int b){ //Parameterized Constructor (2 parameters)
+    Test_4(int x, int y){ //Parameterized Constructor (2 parameters)
         System.out.println("Parameterized constructor is called (2 parameters)");
-        x = a;
-        y = b;
+        this.x = x;   // ✅ instance x = parameter x
+        this.y = y;
     }
 
     Test_4(Test_4 obj){ //Copy Constructor
